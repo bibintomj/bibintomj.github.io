@@ -1881,6 +1881,28 @@ input, select, textarea {
 		white-space: nowrap;
 	}
 
+	.specialbutton {
+		/* width: 300px;
+		height: 100px; */
+		/* font-size: 30px; */
+		/* text-align: center;
+		line-height: 100px; */
+		/* color: rgba(255,255,255,0.9) !important; */
+		border-radius: 50px;
+		background: linear-gradient(-45deg, #FFA63D, rgb(176, 255, 105), rgb(53, 237, 66), rgb(217, 242, 72));
+		background-size: 600%;
+		animation: anime 16s linear infinite;
+	}
+	/* 176, 255, 105
+	122, 254, 218
+	217, 242, 72 */
+	@keyframes anime {
+		0% { background-position: 0% 50% }
+	  	50% { background-position: 100% 50% }
+	  	100% { background-position: 0% 50% }
+	}
+   
+
 		input[type="submit"]:after,
 		input[type="reset"]:after,
 		input[type="button"]:after,
@@ -2598,29 +2620,32 @@ input, select, textarea {
 	}
 
 	.introImageWrapper {
-		object-fit:fill;
-		overflow: hidden;
+		/* object-fit:fill; */
+		/* overflow: hidden; */
 		/* background: #3e4094; */
-		align-items: center;
-		align-content: center;
+		/* align-items: center; */
+		/* align-content: center; */
 		/* padding-right: 200px; */
 	}
 
 	.introimage {
 		/* border-radius: 0.25em; */
 		/* border: 0; */
-		/* display: inline-block; */
-		/* position: relative;  */
-		height: 350px;
-		/* object-fit: contain; */
-		width: auto;
+		display: inline-block;
+		position: relative; 
+		/* height: 350px; */
+		max-height: 400px;
+		/* max-width: 350px; */
+		/* max-width:max-content; */
+		object-fit: fit;
+		/* width: auto; */
 		/* background: #b74e91; */
-		align-self: center;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		padding-left: auto;
-		padding-right: 200px;
+		/* align-self: center; */
+		/* display: block; */
+		/* margin-left: auto;
+		margin-right: auto; */
+		 /* padding-left: auto;
+		padding-right: auto; */
 	}
 	.introtitle {
 		/* background-color: #5e42a6; */
@@ -2631,6 +2656,7 @@ input, select, textarea {
 		color: #d9f248;
 		font-weight: 200;
 		margin-left: 0px;
+		/* background-color: #a6426a; */
 	}
 
 	.roleicon {
@@ -2758,6 +2784,7 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
+		
 	}
 
 		ul.actions li {
@@ -3130,7 +3157,7 @@ input, select, textarea {
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			width: 50em;
+			width: 30em;
 			-ms-flex: 1;
 		}
 
@@ -3144,6 +3171,7 @@ input, select, textarea {
 				-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 				transition: opacity 1s ease, transform 1s ease;
 				opacity: 1;
+				/* background-color: #333333; */
 			}
 
 		.spotlights > section:nth-child(2) {
@@ -3341,7 +3369,7 @@ input, select, textarea {
 		.wrapper.style3 {
 			background-color: rgb(230, 228, 222);
 			background-image: url("images/dots002.svg");
-			background-blend-mode: difference;
+			background-blend-mode:exclusion;
 			color: #111111;
 		}
 
@@ -3621,7 +3649,7 @@ input, select, textarea {
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
 		/* background: #312450; */
-		background: rgba(17, 17, 17, 1);
+		background: rgba(17, 17, 17, 0.5);
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3632,6 +3660,8 @@ input, select, textarea {
 		top: 0;
 		width: 18em;
 		z-index: 10000;
+		-webkit-backdrop-filter: blur(15px);
+  		backdrop-filter: blur(15px);
 	}
 
 		#sidebar > .inner {
@@ -3954,7 +3984,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #d9f248;
 						}
 
 		}
