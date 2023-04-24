@@ -3171,7 +3171,7 @@ input, select, textarea {
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			width: 30em;
+			width: 100em;
 			-ms-flex: 1;
 		}
 
@@ -3373,7 +3373,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: rgb(230, 228, 222);
+			background-color: #111111;
 		}
 
 		.wrapper.style2-alt {
