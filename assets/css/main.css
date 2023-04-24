@@ -2027,6 +2027,20 @@ input, select, textarea {
 					opacity: 0.1;
 				}
 
+	.resumeblock {
+		text-align: center;
+		display: block;
+		margin: auto;
+  		/* margin-right: auto; */
+		height: 200px;
+	}
+
+	.footerblock {
+		text-align: center;
+		display: block;
+		margin: auto;
+	}
+
 /* Features */
 
 	.features {
@@ -2040,7 +2054,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		border-radius: 0.25em;
 		border: solid 1px rgba(255, 255, 255, 0.15);
-		background: rgba(194, 11, 11, 0.05);
+		background: rgba(66, 194, 11, 0);
 		margin: 0 0 2em 0;
 	}
 
@@ -3355,7 +3369,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #111111;
 		}
 
 		.wrapper.style2 {
@@ -3367,10 +3381,10 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: rgb(230, 228, 222);
-			background-image: url("images/dots002.svg");
-			background-blend-mode:exclusion;
-			color: #111111;
+			/* background-color: rgb(230, 228, 222); */
+			background-image: url("images/origin-bg.jpg");
+			/* background-blend-mode:exclusion; */
+			/* color: #111111; */
 		}
 
 		.wrapper.style3-alt {
@@ -3394,13 +3408,13 @@ input, select, textarea {
 		}
 
 		.origintitle {
-			color: #111111;
+			color: #eeeeee;
 		}
 		.originsectiontitle {
-			color: #111111;
+			color: #eeeeee;
 		}
 		.originsectionbody {
-			color: #111111;
+			color: #eeeeee;
 		}
 
 			body.is-ie .wrapper.fullscreen {
