@@ -2032,7 +2032,16 @@ input, select, textarea {
 		display: block;
 		margin: auto;
   		/* margin-right: auto; */
-		height: 200px;
+		height: 300px;
+		background-image: url("images/connect-bg.jpg");
+		background-attachment: fixed;
+		/* background-image: url("images/intro.svg"); */
+		background-position: bottom;
+		background-repeat: no-repeat;
+		background-size: 110% 110%;
+		background-size: cover;
+		border-radius: 25px;
+		/* opacity: 0.5; */
 	}
 
 	.footerblock {
@@ -3146,7 +3155,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: #111111;
 				content: '';
 				display: block;
 				height: 100%;
@@ -3171,8 +3180,21 @@ input, select, textarea {
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			width: 100em;
+			width: 35em;
 			-ms-flex: 1;
+		}
+
+		.projectThumb {
+			display: block;
+			max-width:512px;
+			max-height:512px;
+			width: auto;
+			height: auto;
+		}
+
+		.projectcontent {
+			max-width: 50em;
+			width: auto !important;
 		}
 
 			.spotlights > section > .content > .inner {
