@@ -1889,7 +1889,7 @@ input, select, textarea {
 		line-height: 100px; */
 		/* color: rgba(255,255,255,0.9) !important; */
 		border-radius: 50px;
-		background: linear-gradient(-45deg, #FFA63D, rgb(176, 255, 105), rgb(53, 237, 66), rgb(217, 242, 72));
+		background: linear-gradient(-45deg, #FFA63D, #b0ff69, rgb(53, 237, 66), rgb(217, 242, 72));
 		background-size: 600%;
 		animation: anime 16s linear infinite;
 	}
@@ -2610,6 +2610,20 @@ input, select, textarea {
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
+		}
+
+		.iconmajor {
+			background: #d9f248 !important;
+		}
+
+		.selectedtext {
+			color: #d9f248 !important;
+			font-weight: bold;
+		}
+
+		.designation {
+			color: #989494;
+			font-weight: lighter !important;
 		}
 
 			.icon.major:before {
